@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 export default async function handler(req, res) {
-    const url = "https://product-recommendation-rsfm.onrender.com";
+    const url = "https://research-on-product-recommendation-system.onrender.com";
     try {
         const response = await fetch(url);
         if (response.ok) {
